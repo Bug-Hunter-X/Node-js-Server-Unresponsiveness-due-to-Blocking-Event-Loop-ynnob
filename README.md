@@ -1,0 +1,1 @@
+This repository demonstrates a common Node.js issue: blocking the event loop with a long-running synchronous operation.  The `server.js` file contains code that simulates this problem, causing the server to become unresponsive. The `serverSolution.js` provides a solution using asynchronous operations to prevent blocking.
